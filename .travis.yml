@@ -1,0 +1,11 @@
+  language: java
+sudo: false
+dist: trusty
+jdk: openjdk8
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+before_install:
+  - chmod +x mvnw
+ 
